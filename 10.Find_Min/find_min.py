@@ -16,5 +16,5 @@ def findMin(values):
         i += 1 
     return min 
 
-values = [5,0,1,7,3,5]
-print(findMin(values))
+#values = [5,0,1,7,3,5]
+#print(findMin(values))
