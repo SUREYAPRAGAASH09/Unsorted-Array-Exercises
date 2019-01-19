@@ -7,5 +7,5 @@ def count(a):
 
     return counti
 
-array = [1,5,2,8,9]
+array = [1,5,4,5,9]
 print(count(array)) 
