@@ -11,7 +11,8 @@ def returnContentInReverseOrder(array):
     ReversedArray.append(array[0])
 
     return ReversedArray
-
+print("---------------------------------")
 array = [3,1,6,3,8,9]
 print("The Reversed Array is")
 print(returnContentInReverseOrder(array))
+print("---------------------------------")
