@@ -23,8 +23,12 @@ def shiftLeft(array,shiftValue):
 array = [5,7,6,9,2,8]
 shiftValue = 5
 print(array)
+print("----------------------------")
 print("Shift Right")
+print("----------------------------")
 print(swapRight(array,shiftValue))
+print("----------------------------")
 print("Shift Left")
+print("----------------------------")
 array = [5,7,6,9,2,8]
 print(shiftLeft(array,shiftValue))
