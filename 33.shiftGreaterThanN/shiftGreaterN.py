@@ -29,7 +29,9 @@ array = [5,7,6,9,2,8]
 shiftValue = 10
 print(array)
 print("Shift Right")
+print("-------------------------")
 print(swapRight(array,shiftValue))
 print("Shift Left")
+print("--------------------------")
 array = [5,7,6,9,2,8]
 print(shiftLeft(array,shiftValue))
