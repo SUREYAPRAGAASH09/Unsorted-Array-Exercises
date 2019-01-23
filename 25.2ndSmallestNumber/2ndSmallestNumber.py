@@ -9,5 +9,7 @@ def secondsmallestNumber(array):
     
     return maxi
 
+print("==================================")
 array = [3,1,6,9,3]
 print(secondsmallestNumber(array)) 
+print("---------------------------------")
