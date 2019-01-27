@@ -9,5 +9,7 @@ def reverseContentofAnArray(array):
         print(array[-i])
         i += 1
     print(array[0])
+print("---------------------------------------------")
 array = [2,1,5,7,3]
 reverseContentofAnArray(array)
+print("---------------------------------------------")
