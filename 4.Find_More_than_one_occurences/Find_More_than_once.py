@@ -25,5 +25,7 @@ def find_more_than_once(array,search_elemnt):
         
     
 search_elemnt = 2
+print("---------------------------------------------")
 array = [7,9,1,2,4]
 print(find_more_than_once(array,search_elemnt))
+print("---------------------------------------------")
