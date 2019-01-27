@@ -22,7 +22,8 @@ def compareArrayElements(array1,array2):
            
 
     return flag
-
+print("---------------------------------------------")
 array1 = [2,8,1,4,5,2]
 array2 = [2,9,1,4,5]
 print(compareArrayElements(array1,array2))
+print("---------------------------------------------")
