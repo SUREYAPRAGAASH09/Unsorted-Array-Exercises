@@ -6,7 +6,8 @@ def find_element(array,search_element):
             flag = True
             break
     return flag
-
+print("---------------------------------------------")
 array = [3,5,7,9,0,3]
 search_element = 3
 print(find_element(array,search_element)) 
+print("---------------------------------------------")
