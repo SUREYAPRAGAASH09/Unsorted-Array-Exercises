@@ -15,6 +15,7 @@ def find_smallest_value(values):
             min = values[i] 
         i += 1 
     return min 
-
+print("---------------------------------------------")
 #values = [5,2,4,7,2,5]
 #print(find_smallest_value(values))
+print("---------------------------------------------")
