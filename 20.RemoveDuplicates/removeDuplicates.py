@@ -10,4 +10,4 @@ def built_dictionary(array): # To Built a dictionary
     return list(d.keys())
 
 array = [7,2,0,1,5,7,9,1,8]
-print(built_dictionary(array))
+print(built_dictionary(array)) 
