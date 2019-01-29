@@ -14,7 +14,9 @@ def validate(array,search_ele):
             break
 
     return add
+print("----------------------------------------")
 array = [5,1,9,7,2,8,3,6,4]
 search_ele = 25
 print(validate(array,search_ele))
+print("-----------------------------------------")
 
