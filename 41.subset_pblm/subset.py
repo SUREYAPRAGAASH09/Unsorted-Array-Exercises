@@ -9,7 +9,8 @@ def subset(array,sum):
                 print(array[i],array[j])
             j += 1
         i += 1
-
+print("==========================")
 array = [5,7,8,2,6,5,8]
 sum = 16
 subset(array,sum)
+print("=============================")
