@@ -6,7 +6,7 @@ def getIndexAfterrotationRight(array,index,rotation_value):
     afterRotation = Rotateright.swapRight(array,rotation_value)
     return afterRotation[index]
 
-array = [5,7,6,9,2,8]
-index = int(input("Enter the index value"))
-rotation_value = int(input("Enter the rotation value"))
-print(getIndexAfterrotationRight(array,index,rotation_value))
+#array = [5,7,6,9,2,8]
+#index = int(input("Enter the index value"))
+#rotation_value = int(input("Enter the rotation value"))
+#rint(getIndexAfterrotationRight(array,index,rotation_value))
