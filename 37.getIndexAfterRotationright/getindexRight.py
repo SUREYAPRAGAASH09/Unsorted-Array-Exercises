@@ -6,7 +6,9 @@ def getIndexAfterrotationRight(array,index,rotation_value):
     afterRotation = Rotateright.swapRight(array,rotation_value)
     return afterRotation[index]
 
+print("=========================================================")
 array = [5,7,6,9,2,8]
 index = 3
 rotation_value = 2
 print(getIndexAfterrotationRight(array,index,rotation_value))
+print("==========================================================")
