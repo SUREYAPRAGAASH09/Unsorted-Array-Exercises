@@ -6,7 +6,9 @@ import shiftLeft
 def getIndexAfterrotationLeft(array,index,rotation_value):
     afterRotation = shiftLeft.shiftLeft(array,rotation_value)
     return afterRotation[index]
+
 print("====================================================")
+
 array = [5,7,6,9,2,8]
 index = 3
 rotation_value = 2
