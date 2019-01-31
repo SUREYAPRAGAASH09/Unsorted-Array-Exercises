@@ -13,7 +13,8 @@ def findUnique(array):
             not_unique.append(b)
             dictionary.pop(b)
     return not_unique
-
+print("================================")
 array = [5,7,8,2,6,5,8]
 print(findUnique(array))
 #print(built_dictionary(array)) 
+print("================================")
