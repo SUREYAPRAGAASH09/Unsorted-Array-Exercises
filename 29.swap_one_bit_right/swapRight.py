@@ -10,7 +10,8 @@ def swapRight(array):
             i += 1
         j += 1
     return array
-print("--------------------------")
+print("--------------------------") 
+print()
 array = [5,7,6,9,2,8]
 print(array)
 print(swapRight(array))
