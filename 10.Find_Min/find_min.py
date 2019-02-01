@@ -2,7 +2,7 @@
 import FindLenght
 def findMin(values):
     print()
-
+    nooo
     values_count = FindLenght.count(values) 
     one = values[0] 
     two = values[1] 
