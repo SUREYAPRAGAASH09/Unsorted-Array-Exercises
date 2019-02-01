@@ -1,9 +1,9 @@
-#To find the lenght of an array using slicing methodogy
+#To find the lenght of an array using slicing methodogy 
 
-def count(a):
-    counti = 0
+def findLenght(a):
+    count = 0
     while(a[counti:]):
-        counti += 1
+        count += 1
 
     return counti
 
