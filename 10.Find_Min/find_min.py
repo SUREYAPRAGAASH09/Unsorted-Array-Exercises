@@ -1,6 +1,7 @@
  # To find the min of dictionary values 
 import FindLenght
 def findMin(values):
+    print()
 
     values_count = FindLenght.count(values) 
     one = values[0] 
