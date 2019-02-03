@@ -21,5 +21,4 @@ def FindLenght(array):
  
     return count
 
-array = [1,5,4,5,9]
-print(count(array)) 
+ 
