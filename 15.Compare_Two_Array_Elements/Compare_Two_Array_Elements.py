@@ -1,13 +1,21 @@
-#15. Write a function that takes two unsorted integer arrays as input and 
-# returns True if the two arrays are the same.
+Question :
+==========
+    15. Write a function that takes two unsorted integer arrays as input and  returns True if the two arrays are the same.
+Input :
+=======
+    Unsorted Array Elements
+Output :
+========
+    If two array element is same set flag to Ture other than set flag to False
+
 import FindLenght
-def compareArrayElements(array1,array2):
+def compareTwoArrayElements(array1,array2):
     index = 0
     flag = False
     check = 0
     lenght_of_array1 = FindLenght.count(array1)
     lenght_of_array2 = FindLenght.count(array2)
-    if (lenght_of_array1 == lenght_of_array2):
+    if (lenght_of_array1 == lenght_of_array2):     # this program will work only for two array with same lenght 
         lenght = lenght_of_array1 
         while(index!=lenght):
             if ( array1[index] == array2[index] ):
@@ -18,12 +26,5 @@ def compareArrayElements(array1,array2):
             index += 1
 
     if check == 1 :
-        flag = True
-           
-
+        flag = True     
     return flag
-print("---------------------------------------------")
-array1 = [2,8,1,4,5,2]
-array2 = [2,9,1,4,5]
-print(compareArrayElements(array1,array2))
-print("---------------------------------------------")
