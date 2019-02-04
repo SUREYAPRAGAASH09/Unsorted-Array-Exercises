@@ -1,20 +1,33 @@
- # To find the max of dictionary values 
+# To find the max of dictionary values 
+
+ Problem :
+=========
+      To find the min of dictionary values
+Input :
+=======
+    Unsorted Array Elements
+
+ Output :
+========
+    Maximum Element in an Unsorted Array
+
+ My Way of Solving the Problem (Algorithm) :
+===========================================
+    1.Find the lenght of the array using Findlenght function written by me.
+    2.Set the updated maximum variable by comparing the first two elements in the array
+    3.using while loop update updated maximum value untill iterating the entrire array
+Code :
+======
 import FindLenght
-def max(values):
-
-    values_count = FindLenght.count(values) 
-    one = values[0] 
-    two = values[1] 
-    if (one > two): 
-        max = one 
+def findMaxrray):
+    Array_lenght = FindLenght.len(values) 
+    if (Array[0] < Array[1]): 
+        Updated_maximum = array[0]
     else: 
-        max = two 
-    i = 2 
-    while(i!=values_count): 
-        if (values[i]>max): 
-            max = values[i] 
-        i += 1 
-    return max 
-
-#values = [5,2,4,7,3,5]
-#print(find_largest_value(values))
+        Updated_maximum = Array[1]
+    iterator = 2 
+    while(iterator!=Array_lenght): 
+        if (Array[iterator]<Updated_maximum): 
+            Updated_maximum = Array[iterator] 
+        iterator += 1 
+    return Updated_maximum
