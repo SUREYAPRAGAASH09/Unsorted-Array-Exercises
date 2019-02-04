@@ -1,9 +1,20 @@
-#14. Given an unsorted integer array A, print the contents of the array in the 
-# given format: {arrayindex:value, arrayindex:value}. 
-# Note that there is no comma after the last value.
-
-import Finding_lenght_of_an_array_without_using_len_functin
-def printing_index_with_values(array):
+Question :
+==========
+ Given an unsorted integer array A, print the contents of the array in the  given format: {arrayindex:value, arrayindex:value}. 
+Note that there is no comma after the last value.
+Input :
+=======
+    Unsorted Array 
+Output :
+========
+    print the contents of the array in the  given format: {arrayindex:value, arrayindex:value}
+    
+Algorithm :
+===========
+    Using Dictionary Data structure insert the all the arraya elemnts into the Dictionary and print dictionary 
+     
+import Findlenght
+def Printarraywithindexer(array):
     dictionary = {}
     index = 0
     lenght = Finding_lenght_of_an_array_without_using_len_functin.count(array)
@@ -12,5 +23,3 @@ def printing_index_with_values(array):
         index += 1
     return dictionary
 
-array = [9,7,3,4,0]
-print(printing_index_with_values(array))
