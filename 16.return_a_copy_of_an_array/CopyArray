@@ -1,0 +1,20 @@
+Question :
+==========
+            Wrtie a function that takes an unsorted integer array as input and returns a copy of the array as output.
+Input :
+=======
+     Unsorted Array
+Ouput :
+=======
+     Copied Unsorted array
+Algorithm :
+===========
+        1. using the append function append all the element from the original array to the copied array 
+Code :
+======
+def producecopy(array):
+    copy_array = []
+    for i in array:
+        copy_array.append(i)
+
+    return copy_array
