@@ -1,5 +1,6 @@
-#17. Write a function that takes an unsorted integer
-#  array as input and prints the contents of the array in reverse order.
+Question :
+==========
+        Write a function that takes an unsorted integer array as input and prints the contents of the array in reverse order.
 Input :
 =======
     Unsorted Array Elements
@@ -14,7 +15,7 @@ My logic:
 Code :
 =======
 import FindLenght
-def reverseContentofAnArray(array):
+def reverse(array):
     iterator = 1
     lenghtOfArray = FindLenght.count(array)
     print("Printing the Content of the array in reverse order ")
