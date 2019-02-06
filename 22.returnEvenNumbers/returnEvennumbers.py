@@ -1,12 +1,17 @@
-#22.  Given an unsorted integer array as input,  return the number of even numbers in it.
-
-
+Question :
+===========
+    Given an unsorted integer array as input,  return the number of even numbers in it.
+Input :
+=======
+    Unsorted array elements 
+Output :
+========
+    Returning an array Containing only Even Numbers
+Code :
+=======
 def returnEvennumbers(array):
-    even = []
-    for i in array:
-        if i%2 == 0:
-            even.append(i)
-    return even
-
-array = [12,34,54,67,34,98,12,90,2,4]
-print(returnEvennumbers(array))
+    evenList = []
+    for iterator in array:
+        if iterator%2 == 0:
+            evenlist.append(iterator)
+    return evenList
