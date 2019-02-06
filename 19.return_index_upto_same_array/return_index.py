@@ -1,23 +1,32 @@
-
+Question :
+===========
+        Return the index upto the same array elements 
+Input :
+=======
+        Unsorted array elements 
+Output :
+========
+        Return index upto which same array elements 
+    
+Code :
+======
 def array12(array1,i):
     return array1[i]
 
 def array13(array2,i):
     return array2[i]
 
-
+#My Assumption :
+===============
+      this program works only for array elements having same size 
 def return_index(array1,array2):
     flag = True
-    i = 0
+    iterator = 0
     while (flag):
-        if ((array12(array1,i)) == (array13(array2,i))):
-            print (i)
-            i += 1
+        if ((array12(array1,iterator)) == (array13(array2,iterator))):
+            print (iterator)
+            iterator += 1
             flag = True
         else:
             flag = False
     return -1
-
-array1 = [1,4,2,6,0]
-array2 = [7,5,2,8,5]
-print(return_index(array1,array2))
