@@ -1,13 +1,19 @@
-#to find the element whether it is present or not 
-def find_element(array,search_element):
-    for i in array:
+Question :
+===========
+    To find the element whether it is present or not 
+Input :
+=======
+    Unsorted Array 
+Output :
+=========
+   True - If element present in the array 
+   False - If elemnet is not present in the arrray
+Code :
+======
+    def find_element(array,search_element):
+    for iterator in array:
         flag = False
-        if (i==search_element):
+        if (iterator==search_element):
             flag = True
             break
     return flag
-print("---------------------------------------------")
-array = [3,5,7,9,0,3]
-search_element = 3
-print(find_element(array,search_element)) 
-print("---------------------------------------------")
