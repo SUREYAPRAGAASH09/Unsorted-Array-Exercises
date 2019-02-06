@@ -1,22 +1,24 @@
-#to Check given number is prime or not
+Question :
+    to Check given number is prime or not
+Input :
+=======
+    Number 
+Output :
+========
+    True - If number is prime 
+    False - If number is not prime 
+Code :
+======
 import math 
-def Isprime(N):
+def Isprime(Number):
     Flag = True
-    #print N
-    if(N <= 1):
+ 
+    if(Number <= 1):
         return False    
-    if (N==2):
+    if (Number==2):
         return True
     else:
-        for i in range(2,int(math.sqrt(N)+1)): #change in while loop  
-            if (N%i == 0):
+        for iterator in range(2,int(math.sqrt(Number)+1)):   
+            if (Number % iterator == 0):
                 Flag = False
-            
     return Flag
-
-
-
-#N = int(input("Enter the number"))
-#(primenumbers(N))
-print (Isprime(4))
-#print (range(2,3))
