@@ -1,13 +1,21 @@
-def built_dictionary(array): # To Built a dictionary  
-    d = {} #creating a empty dictionary 
+Question :
+==========
+    Remove Dupliocate from the array
+Input :
+=======
+    Unsorted Array Elemnts
+Output :
+========
+    Get a array of not having dulicate array elements
+Code :
+=======
+def removeDuplicate(array):   
+    dictionary = {}  
     count = 0 
-    for i in array: 
+    for itertor in array: 
         count = 1 
-        if i in d: 
-            d[i] = d[i] + 1 
+        if iterator in d: 
+            d[iterator] = d[iterator] + 1 
         else: 
-            d[i] = count  
-    return list(d.keys())
-
-array = [7,2,0,1,5,7,9,1,8]
-print(built_dictionary(array)) 
+            d[iterator] = count  
+    return list(dictionary.keys())
