@@ -1,13 +1,19 @@
-import Max
-
+Question :
+==========
+    Get the 2nd largest number form the list
+Input :
+=======
+    Unsorted Array
+Output :
+========
+    Integer - Get 2nd largest number 
+Code :
+======
+import Max 
 def secondLargestNumber(array):
-    v = Max.Max(array)
-    for i in array:
-        if v == i:
-            array.remove(i)
-    maxi = Max.Max(array)
-    
-    return maxi
-
-array = [3,1,6,9,3]
-print(secondLargestNumber(array)) 
+    Maximum = Max.Max(array)
+    for iterator in array:
+        if Maximum == iterator:
+            array.remove(iterator)
+    maximum = Max.Max(array)
+    return maximum
