@@ -1,7 +1,7 @@
- # To find the max of dictionary values 
+ # To find the max of list values 
  Problem :
 =========
-      To find the maximum element of dictionary values
+      To find the maximum element of list values
 
 Input :
 =======
