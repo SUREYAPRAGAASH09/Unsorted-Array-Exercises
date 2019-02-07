@@ -1,20 +1,27 @@
- # To find the min of dictionary values 
+ # To find the min of list of values 
+ Problem :
+=========
+      To find the min element from array of elements
+
+Input :
+=======
+    Unsorted Array Elements - List
+
+Output :
+========
+    Maximum Element in an Unsorted Array - Integer
+Code :
+======
 import FindLenght
-def findMin(values):
-
-    values_count = FindLenght.count(values) 
-    one = values[0] 
-    two = values[1] 
-    if (one < two): 
-        min = one 
+def findMaxrray):
+    Array_lenght = FindLenght.len(values) 
+    if (Array[0] < Array[1]): 
+        Updated_maximum = array[0]
     else: 
-        min = two 
-    i = 2 
-    while(i!=values_count): 
-        if (values[i]<min): 
-            min = values[i] 
-        i += 1 
-    return min 
-
-#values = [5,0,1,7,3,5]
-#print(findMin(values))
+        Updated_maximum = Array[1]
+    iterator = 2 
+    while(iterator!=Array_lenght): 
+        if (Array[iterator]<Updated_maximum): 
+            Updated_maximum = Array[iterator] 
+        iterator += 1 
+    return Updated_maximum
