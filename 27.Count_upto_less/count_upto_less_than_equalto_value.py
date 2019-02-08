@@ -1,22 +1,22 @@
-#27. Given an unsorted integer array and an integer value X
-#  as input, return the count of the values less than or equal to X. 
+Question :
+==========
+    Given an unsorted integer array and an integer value X as input, return the count of the values less than or equal to X. 
+Input :
+=======
+    Unsorted array - List in Python 
+Output :
+========
+    Search Element upto less than or equal to - Integer
+Code :
+======
 import FindLenght
-def validate(array,search_ele):
-    #flag = False
+def validate(array,searchElement):
     add = array[0] + array[1]
-    i = 2
+    iterator = 2
     Lenght = FindLenght.count(array)
     
-    while (i!=Lenght):
-        add = add + array[i]
-        if (add >= search_ele):
-            #flag = True
+    while (iterator!=Lenght):
+        add = add + array[iterator]
+        if (add >= searchElement):
             break
-
     return add
-print("----------------------------------------")
-array = [5,1,9,7,2,8,3,6,4]
-search_ele = 25
-print(validate(array,search_ele))
-print("-----------------------------------------")
-
