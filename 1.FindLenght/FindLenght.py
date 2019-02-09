@@ -7,7 +7,6 @@ Input :
 Output:
 =======
     Count the No of Element in the Array - Integer
-
 Code:
 =====
 def FindLenght(array):
