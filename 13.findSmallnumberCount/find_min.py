@@ -3,15 +3,11 @@ Problem :
  To find the min of dictionary values
 Input :
 =======
-    Unsorted Array Elements
+    Unsorted Array Elements - List in Python
 Output :
 ========
-    Minimum Element in an Unsorted Array
-My Way of Solving the Problem (Algorithm) :
-===========================================
-    1.Find the lenght of the array using Findlenght function written by me.
-    2.Set the updated minumum variable by comparing the first two elements in the array
-    3.using while loop update updated minimum value untill iterating the entrire array
+    Minimum Element in an Unsorted Array - Integer
+ 
 Code :
 ======
 import FindLenght
