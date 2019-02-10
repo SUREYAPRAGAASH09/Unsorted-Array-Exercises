@@ -2,20 +2,14 @@
 
  Problem :
 =========
-      To find the min of dictionary values
+      To find the min of dictionary values - List in Python
 Input :
 =======
-    Unsorted Array Elements
+    Unsorted Array Elements - Integer
 
  Output :
 ========
     Maximum Element in an Unsorted Array
-
- My Way of Solving the Problem (Algorithm) :
-===========================================
-    1.Find the lenght of the array using Findlenght function written by me.
-    2.Set the updated maximum variable by comparing the first two elements in the array
-    3.using while loop update updated maximum value untill iterating the entrire array
 Code :
 ======
 import FindLenght
