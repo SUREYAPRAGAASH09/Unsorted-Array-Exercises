@@ -1,16 +1,17 @@
-def built_dictionary(array): # To Built a dictionary  
+#Sub Module for Finding Unique Elements
+def built_dictionary(array):   
     dictionary = {} #creating a empty dictionary 
     count = 0 
-    for i in array: 
+    for iterator in array: 
         count = 1 
-        if i in dictionary: 
-            dictionary[i] = dictionary[i] + 1 
+        if iterator in dictionary: 
+            dictionary[iterator] = dictionary[iterator] + 1 
         else: 
-            dictionary[i] = count  
+            dictionary[iterator] = count  
     return dictionary
 
 def find_key_from_dictionary(dictionary,max_element): # To find key from the value in an dictionary 
-    for k,v in dictionary.items(): 
-        if (v == max_element): 
-            key = k 
+    for KEY,VALUE in dictionary.items(): 
+        if (VALUE == max_element): 
+            key = KEY 
     return key 
