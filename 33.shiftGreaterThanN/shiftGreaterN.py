@@ -1,3 +1,14 @@
+Question :
+==========
+    Shift Greater than N elements in an array 
+Input :
+=======
+    Unsorted Integer Array
+Output :
+=========
+    Unsorted Integer Array but, After shifting greater than n elements in an arrray
+Code :
+=======
 def swapRight(array,shiftValue):
     if (shiftValue > len(array)):
         shiftValue = shiftValue - len(array)
@@ -23,15 +34,3 @@ def shiftLeft(array,shiftValue):
         array.append(temp)
         i+=1
     return array
-
-
-array = [5,7,6,9,2,8]
-shiftValue = 10
-print(array)
-print("Shift Right")
-print("-------------------------")
-print(swapRight(array,shiftValue))
-print("Shift Left")
-print("--------------------------")
-array = [5,7,6,9,2,8]
-print(shiftLeft(array,shiftValue))
