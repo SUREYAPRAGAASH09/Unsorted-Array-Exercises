@@ -1,34 +1,32 @@
+Question :
+==========
+    Shift Right Left the element of the array
+Input :
+=======
+    Unsorted Integer Array
+Output :
+========
+    Unsorted Integer Array but, after shifting right left the element of the array
+Code :
+======
 def swapRight(array,shiftValue):
     temp = 0
-    j = 0
-    while (j!=shiftValue):
-        i = -1
-        while (i!=len(array)):
-            array[i],temp = temp,array[i]
-            i += 1
-        j += 1
+    iterator = 0
+    while (iterator2!=shiftValue):
+        iterator = -1
+        while (iterator!=len(array)):
+            array[iterator],temp = temp,array[iterator]
+            iterator += 1
+        iterator2 += 1
     return array
 
 def shiftLeft(array,shiftValue):
-    i = 0
-    while(i!=shiftValue):
-        j = 0
-        temp = (array[j])
-        array.remove(array[j])
+    iterator = 0
+    while(iterator!=shiftValue):
+        iterator2 = 0
+        temp = (array[iterator2])
+        array.remove(array[iterator2])
         array.append(temp)
-        i+=1
+        iterator+=1
     return array
 
-
-array = [5,7,6,9,2,8]
-shiftValue = 5
-print(array)
-print("----------------------------")
-print("Shift Right")
-print("----------------------------")
-print(swapRight(array,shiftValue))
-print("----------------------------")
-print("Shift Left")
-print("----------------------------")
-array = [5,7,6,9,2,8]
-print(shiftLeft(array,shiftValue))
