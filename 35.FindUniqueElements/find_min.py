@@ -1,20 +1,29 @@
- # To find the min of dictionary values 
+Problem :
+=========
+ To find the min of dictionary values
+Input :
+=======
+    Unsorted integer Array  
+Output :
+========
+    Minimum Element  - Integer
+ 
+Code :
+======
 import FindLenght
-def findMin(values):
-
-    values_count = FindLenght.count(values) 
-    one = values[0] 
-    two = values[1] 
-    if (one < two): 
-        min = one 
+def findMin(Array):
+    
+    Array_lenght = FindLenght.len(values) 
+     
+    if (Array[0] < Array[1]): 
+        Updated_minimum  = Array[0]
     else: 
-        min = two 
-    i = 2 
-    while(i!=values_count): 
-        if (values[i]<min): 
-            min = values[i] 
-        i += 1 
-    return min 
+        Updated_minimum = Array[1]
+    iterator = 2 
+    while(iterator!=Array_lenght): 
+        if (Array[iterator]<Updated_minimum): 
+            Updated_minimum = Array[iterator] 
+        iterator += 1 
+    return Updated_minimum 
 
-#values = [5,0,1,7,3,5]
-#print(findMin(values))
+
