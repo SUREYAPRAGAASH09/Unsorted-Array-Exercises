@@ -3,7 +3,7 @@ Question :
     To find the lenght of an array using slicing methodogy
 Input :
 =======
-    Unsorted Array Elements - List in Python
+    Unsorted Integer Array 
 Output:
 =======
     Count the No of Element in the Array - Integer
