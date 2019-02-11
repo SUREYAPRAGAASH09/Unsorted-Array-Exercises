@@ -3,10 +3,10 @@ Problem :
  To find the min of dictionary values
 Input :
 =======
-    Unsorted Array Elements - List in Python 
+    Unsorted integer Array  
 Output :
 ========
-    Minimum Element in an Unsorted Array - Integer
+    Minimum Element  - Integer
  
 Code :
 ======
