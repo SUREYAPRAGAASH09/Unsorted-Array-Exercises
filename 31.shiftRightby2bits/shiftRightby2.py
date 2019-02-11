@@ -1,20 +1,21 @@
-#31. Given an unsorted
-#  integer array as input, rotate the contents of the array to the right by 2 positions.
-
+Question :
+==========
+ Given an unsorted integer array as input, rotate the contents of the array to the right by 2 positions.
+Input :
+=======
+    Unsorted Integer Array 
+Output :
+========
+    Unsorted Integer Array but, after shifting right hand side twice
+Code :
+======
 def swapRight(array):
-    
-    
     temp = 0
-    j = 0
-    while (j!=2):
-        i = -1
-        while (i!=len(array)):
-            array[i],temp = temp,array[i]
-            i += 1
-        j += 1
+    iterator2 = 0
+    while (iterator2!=2):
+        iterator = -1
+        while (iterator!=len(array)):
+            array[iterator],temp = temp,array[iterator]
+            iterator += 1
+        iterator2 += 1
     return array
-print("==================================")
-array = [5,7,6,9,2,8]
-print(array)
-print(swapRight(array))
-print("==================================")
