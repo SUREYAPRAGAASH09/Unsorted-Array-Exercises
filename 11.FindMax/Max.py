@@ -4,10 +4,10 @@
       To find the min of dictionary values
 Input :
 =======
-    Unsorted Array Elements - List
+    Unsorted Integer Array 
 Output :
 ========
-    Maximum Element in an Unsorted Array - Integer 
+    Return Maximum Element in an Unsorted Array - Integer 
 Code :
 ======
 import FindLenght
