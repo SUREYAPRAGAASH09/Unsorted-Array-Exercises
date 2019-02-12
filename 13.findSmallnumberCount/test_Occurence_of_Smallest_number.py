@@ -1,8 +1,10 @@
+#Test File for find the Counting the Occurence of Samllest Element in an Unsorted Integer Array 
 import findSmallestNumberCount
-def assertTrue():
+
+def assertTrue(): #Environment Test
     assert True 
 
-def arrayreturn2():
+def arrayreturn2(): #Test for Counting the Occurence of Smallest Number
     #arrange
     array = [3,9,2,7,9]
     excepted = 2
