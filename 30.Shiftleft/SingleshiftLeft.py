@@ -10,11 +10,10 @@ Output :
 Code :
 ======
 def shiftLeft(array):
-    iterator = 0
-    while(iterator!=1):
-        iterator2 = 0
-        temp = (array[iterator2])
-        array.remove(array[iterator2])
+    shiftValue = 0
+    while(shiftValue!=1):
+        temp = (array[0])
+        array.remove(array[0])
         array.append(temp)
-        iterator+=1
+        shiftValue+=1
     return array
