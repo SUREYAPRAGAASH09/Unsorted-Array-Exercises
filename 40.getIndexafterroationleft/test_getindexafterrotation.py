@@ -1,5 +1,6 @@
+#test file
 import getindexAterrotation
-def test_assertTrue():
+def test_assertTrue(): #Environment test
     assert True
 
 def test_indexvalue_rotationvalue_return_9():
