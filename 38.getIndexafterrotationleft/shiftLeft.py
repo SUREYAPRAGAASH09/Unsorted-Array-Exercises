@@ -1,11 +1,19 @@
-def shiftLeft(array,shiftValue):
-    if (shiftValue > len(array)):
-        shiftValue = shiftValue - len(array)
-    i = 0
-    while(i!=shiftValue):
-        j = 0
-        temp = (array[j])
-        array.remove(array[j])
+Question :
+==========
+    Shift the number to the left hand side for only one time 
+Input :
+=======
+    Unsorted Array - list in Python
+Output :
+========
+    List in Python after single time left hand side shift operation overd 
+Code :
+======
+def shiftLeft(array):
+    shiftValue = 0
+    while(shiftValue!=1):
+        temp = (array[0])
+        array.remove(array[0])
         array.append(temp)
-        i+=1
+        shiftValue+=1
     return array
