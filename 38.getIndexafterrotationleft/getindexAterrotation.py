@@ -4,7 +4,7 @@ Problem Statement :
 Input :
 =======
     An Unsorted Integer Array ,
-    Index Value - Type Integer,
+    
     Rotation Value - Type Integer
 Output :
 ========
@@ -13,6 +13,6 @@ Code :
 ======
 import shiftLeft
 
-def getIndexAfterrotationLeft(array,index,rotation_value):
+def getIndexAfterrotationLeft(array,rotation_value):
     afterRotation = shiftLeft.shiftLeft(array,rotation_value)
-    return afterRotation[index]
+    return afterRotation[3]
