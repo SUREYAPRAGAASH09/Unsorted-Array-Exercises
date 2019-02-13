@@ -1,13 +1,21 @@
-def swapRight(array,shiftValue):
-    if (shiftValue > len(array)):
-        shiftValue = shiftValue - len(array)
-    
+Question :
+==========
+    Rotste Right hand side Single bit at a time 
+Input :
+=======
+    Unsorted Integer Array 
+Output :
+========
+    Unsorted integer Array - After shifting the element right hand side 
+Code :
+=======
+def swapRight(array):
     temp = 0
-    j = 0
-    while (j!=shiftValue):
-        i = -1
-        while (i!=len(array)):
-            array[i],temp = temp,array[i]
-            i += 1
-        j += 1
+    shiftOperator = 0
+    while (shiftOperator!=1):
+        iterator = -1
+        while (iterator!=len(array)):
+            array[iterator],temp = temp,array[iterator]
+            iterator += 1
+        shiftOperator += 1
     return array
