@@ -4,7 +4,7 @@ Problem :
 Input :
 =======
     An Unsorted Integer Array , 
-    Index of Type Integer , 
+      
     Rotation value of type integer
 Output :
 =========
@@ -13,6 +13,6 @@ Code :
 ======
 import Rotateright
 
-def getIndexAfterrotationRight(array,index,rotation_value):
+def getIndexAfterrotationRight(array, rotation_value):
     afterRotation = Rotateright.swapRight(array,rotation_value)
-    return afterRotation[index]
+    return afterRotation[3]
