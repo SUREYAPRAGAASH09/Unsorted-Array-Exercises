@@ -1,13 +1,18 @@
-def swapRight(array,shiftValue):
-    if (shiftValue > len(array)):
-        shiftValue = shiftValue - len(array)
-    
-    temp = 0
-    j = 0
-    while (j!=shiftValue):
-        i = -1
-        while (i!=len(array)):
-            array[i],temp = temp,array[i]
-            i += 1
-        j += 1
-    return array
+Problem :
+=========
+    Given an unsorted integer array A,find the value that will be in 3rd position or index after 2 rotations to the right.
+Input :
+=======
+    An Unsorted Integer Array , 
+    index of type Integer,  
+    Rotation value of type integer
+Output :
+=========
+    Integer is extracted after rotation is made 
+Code :
+======
+import Rotateright
+
+def getIndexAfterrotationRight(array,index, rotation_value):
+    afterRotation = Rotateright.swapRight(array,rotation_value)
+    return afterRotation[index]
