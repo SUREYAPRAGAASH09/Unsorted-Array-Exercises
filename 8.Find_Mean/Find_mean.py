@@ -13,5 +13,5 @@ import Sum
 import FindLenght
 
 def mean(array):
-    return Sum.sum(array)/FindLenght.findLenght(array)
+        return Sum.sum(array)/FindLenght.findLenght(array)
 
