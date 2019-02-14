@@ -1,11 +1,16 @@
-#To find the lenght of an array using slicing methodogy
-
-def count(a):
-    counti = 0
-    while(a[counti:]):
-        counti += 1
-
-    return counti
-
-#array = [1,5,2,8,9]
-#print(count(array)) 
+Problem Statement :
+==========
+    To find the lenght of an array using slicing methodogy
+Input :
+=======
+    Unsorted Integer Array 
+Output:
+=======
+    Count the No of Element in the Array - Integer
+Code:
+=====
+def FindLenght(array):
+    count = 0
+    while(a[count:]):
+        count += 1    
+    return count
