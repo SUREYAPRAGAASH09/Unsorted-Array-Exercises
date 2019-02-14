@@ -1,22 +1,25 @@
-#Given an unsorted integer array A, find the sum of all the elements in A
-#input = array of any size
-#output = sum of all the element of the given array
+Problem Statement :
+===================
+    Given an unsorted integer array A, find the sum of all the elements in A
+Input :
+=======    
+    Unsorted Integer Array 
+Output :
+========    
+    sum of all the element of the given array - Integer
+Code :
+=======    
+def FindLenght(array):
+    count = 0
+    while(array[count:]):
+        count += 1
+    return count
 
-def count(a):
-    counti = 0
-    while(a[counti:]):
-        counti += 1
-
-    return counti
-
-def sum(array):
-    lenght_of_an_array = count(array)
-    sum = 0
-    i = 0
-    while(i!=lenght_of_an_array):
-        sum  = sum + array[i]
-        i += 1
-    return sum 
-
-array = [1,5,3,6,7,3]
-print(sum(array))
+def findSum(array):
+    lenght = findlenght(array)
+    sumValue = 0
+    iteratorValue = 0
+    while(iteratorValue!=lenght):
+        sumValue  = sumValue + array[iteratorValue]
+        iteratorValue += 1
+    return sumValue 
