@@ -1,14 +1,17 @@
-#8. Given an unsorted integer array A, find the mean.
-
+Problem Statement :
+===================    
+    Given an unsorted integer array A, find the mean.
+Input :
+=======
+    Unsorted Integer array
+Output :
+========
+    Integer - Mean Value
+Code :
+======    
 import Sum
 import FindLenght
 
 def mean(array):
-    sum = Sum.sum(array)
-    print(sum)
-    divide_value = FindLenght.count(array)
-    mean = sum / divide_value
-    return mean
+    return Sum.sum(array)/FindLenght.findLenght(array)
 
-array = [4,2,6,7,3]
-print(mean(array))
