@@ -1,19 +1,26 @@
+Problem Statement :
+===================
+    Given an unsorted integer array A and a value X, 
+    check if there exists a subset of A of size two that adds upto X (Subset sum for a pair)
+Input :
+=======
+    Unsorted Integer Array 
+Output :
+========
+    True - If found any subset pair from the Unsorted Integer Array
+    False - If not found any subset pair from the Unsorted Integer Array
+Code :
+=======
 import FindLenght
-def subset(array,sum):  
+def subset(array,sumValue):  
     flag = False  
-    i = 0
-    lenght = FindLenght.count(array)
-    while (i!=lenght):
-        j = i + 1
-        while (j!=lenght):
-            if ((array[i] + array[j]) == sum):
+    iteratorValue = 0
+    lenght = FindLenght.findLenght(array)
+    while (iteratorValue!=lenght):
+        indexValue = iteratorValue + 1
+        while (indexValue!=lenght):
+            if ((array[iteratorValue] + array[indexValue]) == sumValue):
                 flag = True
-            j += 1
-        i += 1
+            indexValue += 1
+        iteratorValue += 1
     return flag
-
-print("==========================")
-array = [5,7,8,2,6,5,8]
-sum = 16
-subset(array,sum)
-print("=============================")
