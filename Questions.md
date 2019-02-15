@@ -3,6 +3,7 @@
 ## Note: If there is a case where the solution provided will create a problem if negative integers are present in the array, then explicitly specify then same and if possible, provide an alternate soltuion that will eliminate the problem with negative integers.  
 
 1. Find the length of the given integer array. Don't use the len() function.
+
 2. Given an unsorted integer array A and an integer value X, find if A contains the value X.
 3. Given an unsorted integer array A and an integer value X, return the index at which X is located in A or return -1 if it is not found in A.
 4. Given an unsorted integer array A and an integer value X, find if X is found more than once in A.
