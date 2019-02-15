@@ -1,25 +1,19 @@
 import FindLenght
 
 def Equate(array):
-    #flag = False
+    flag = NULL
     Lenght = FindLenght.count(array)
-    i = 0
-    while (i!=Lenght):
-        check = array[i]
-        j = i+1
-        while (j!=Lenght):
+    firstElement = 0
+    while (firstElement!=Lenght):
+        check = array[firstElement]
+        secondElement = firstElement+1
+        while (secondElement!=Lenght):
             if (check == array[j]):
                 flag = False
             else:
                 flag = True
                 break
-            j += 1
-        i += 1
+            secondElement += 1
+        firstElement += 1
  
     return flag
-
-
-
-#array = [1,1,1,1]
-#array = [1,2,6,7]
-#print(Equate(array))
