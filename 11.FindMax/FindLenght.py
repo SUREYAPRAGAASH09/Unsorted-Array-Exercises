@@ -4,7 +4,7 @@ Question :
 
 Input :
 =======
-    Unsorted Array Elements - list in Python
+    Unsorted Integer Array 
 
 Output:
 =======
