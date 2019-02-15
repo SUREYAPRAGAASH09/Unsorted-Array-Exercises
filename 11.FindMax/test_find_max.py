@@ -4,7 +4,7 @@ import Max
 def test_AssertTrue(): #For Testing the Environment 
     assert True
 
-def test_arrayretutn7(): #Test the Function returning Maximum Element as '7'
+def test_arrayretutn7(): 
     #arrange
     values = [5,2,4,7,3,5]
     excepted = 7
