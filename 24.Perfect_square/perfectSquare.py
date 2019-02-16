@@ -3,14 +3,14 @@ Question :
     Given an unsorted integer array as input,  return the number of perfect squares in it.
 Input :
 =======
-    unsorted Array 
+    unsorted Integer Array 
 Output :
 ========
     Getting the list of perfect square number  
 Code :
 =======
 import math
-def perfectSquare(N):
+def isPerfectSquare(N):
     flag = False
     getSqrtN = math.sqrt(N)
     roundSqrtValue = round(M)
@@ -19,8 +19,11 @@ def perfectSquare(N):
     return flag
 
 
-def filter_perfectSquare(array):
-    for iterator in array:
-        if (perfectSquare(iterator)):
-            print (iterator)
+def filterPerfectSquare(array):
+    perfectSquareList = []
+    for iteratorValue in array:
+        if (perfectSquare(iteratorValue)):
+            perfectSquareList.append(iteratorValue)
+    return perfectSqareList
+             
 
