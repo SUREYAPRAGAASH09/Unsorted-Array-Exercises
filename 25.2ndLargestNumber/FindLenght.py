@@ -3,7 +3,7 @@ Question :
     To find the lenght of an array using slicing methodogy
 Input :
 =======
-    Unsorted Array Elements
+    Unsorted Integer Array 
 Output:
 =======
     Count the No of Element in the Array
