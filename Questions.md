@@ -1,4 +1,4 @@
-# Programs on Unsorted Integer Arrays
+# Problem Statement for Unsorted Integer Arrays
 
 ## Note: If there is a case where the solution provided will create a problem if negative integers are present in the array, then explicitly specify then same and if possible, provide an alternate soltuion that will eliminate the problem with negative integers.  
 
