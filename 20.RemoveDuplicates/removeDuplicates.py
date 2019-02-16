@@ -3,7 +3,7 @@ Question :
     Remove Dupliocate from the array
 Input :
 =======
-    Unsorted Array Elemnts
+    Unsorted Integer Array 
 Output :
 ========
     Get a array of not having dulicate array elements
@@ -12,10 +12,10 @@ Code :
 def removeDuplicate(array):   
     dictionary = {}  
     count = 0 
-    for itertor in array: 
+    for itertorValue in array: 
         count = 1 
-        if iterator in d: 
-            d[iterator] = d[iterator] + 1 
+        if iteratorValue in dictionary: 
+            dictionary[iteratorValue] = dictionary[iteratorValue] + 1 
         else: 
-            d[iterator] = count  
+            dictionary[iteratorValue] = count  
     return list(dictionary.keys())
