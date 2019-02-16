@@ -3,7 +3,7 @@ Question :
     To find the element whether it is present or not 
 Input :
 =======
-    Unsorted Array 
+    Unsorted Integer Array 
 Output :
 =========
    True - If element present in the array 
@@ -11,9 +11,9 @@ Output :
 Code :
 ======
     def find_element(array,search_element):
-    for iterator in array:
+    for iteratorValue in array:
         flag = False
-        if (iterator==search_element):
+        if (iteratorValue==search_element):
             flag = True
             break
     return flag
