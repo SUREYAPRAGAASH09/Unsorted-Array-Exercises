@@ -1,12 +1,12 @@
 Question :
 ==========
-    Get the 2nd largest number form the list
+    Get Second largest number form the list
 Input :
 =======
-    Unsorted Array
+    Unsorted Integer Array
 Output :
 ========
-    Integer - Get 2nd largest number 
+    Integer - Get second largest integer
 Code :
 ======
 import Max 
