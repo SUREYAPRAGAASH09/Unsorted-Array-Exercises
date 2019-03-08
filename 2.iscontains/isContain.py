@@ -11,9 +11,9 @@ Output :
 Code :
 ======
     def find_element(array,search_element):
-    for iteratorValue in array:
         flag = False
-        if (iteratorValue==search_element):
-            flag = True
-            break
-    return flag
+        for iteratorValue in array:
+            if (iteratorValue==search_element):
+                flag = True
+                break
+         return flag
