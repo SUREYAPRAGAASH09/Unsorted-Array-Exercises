@@ -53,3 +53,7 @@
 48. Given an unsorted integer array A and a value X, return the subset of A containing values that are multiples of X. Return -1 otherwise. 
 49. Given an unsorted integer array A, check if the array A is a palindrome or not. 
 50. Given an unsorted integer array A, find the sum and product of the minimum and maximum values of the array. 
+
+Permission List 
+05-03-2020 Morning NO Permission
+
