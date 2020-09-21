@@ -3,7 +3,6 @@
 ## Note: If there is a case where the solution provided will create a problem if negative integers are present in the array, then explicitly specify then same and if possible, provide an alternate soltuion that will eliminate the problem with negative integers.  
 
 1. Find the length of the given integer array. Don't use the len() function.
-
 2. Given an unsorted integer array A and an integer value X, find if A contains the value X.
 3. Given an unsorted integer array A and an integer value X, return the index at which X is located in A or return -1 if it is not found in A.
 4. Given an unsorted integer array A and an integer value X, find if X is found more than once in A.
@@ -24,10 +23,10 @@
 19. Write a function that takes two unsorted integer arrays as input and returns the index upto which they are identical. Return -1 otherwise. 
 20. Write a function that takes an unsorted integer array as input and returns an array with the duplicates removed.
 21. Given an unsorted integer array as input,  return the number of odd numbers in it.
-22.  Given an unsorted integer array as input,  return the number of even numbers in it.
-23.  Given an unsorted integer array as input,  return the number of prime numbers in it.
-24.  Given an unsorted integer array as input,  return the number of perfect squares in it.
-25.  Given an unsorted integer array as input,  find the second largest/smallest element in the array.
+22. Given an unsorted integer array as input,  return the number of even numbers in it.
+23. Given an unsorted integer array as input,  return the number of prime numbers in it.
+24. Given an unsorted integer array as input,  return the number of perfect squares in it.
+25. Given an unsorted integer array as input,  find the second largest/smallest element in the array.
 26. Given an unsorted integer array as input,  find the Kth largest/smallest element in the array.
 27. Given an unsorted integer array and an integer value X as input, return the count of the values less than or equal to X. 
 28. Given an unsorted integer array and an integer value X as input, return the count of the values greater than or equal to X.
@@ -53,7 +52,3 @@
 48. Given an unsorted integer array A and a value X, return the subset of A containing values that are multiples of X. Return -1 otherwise. 
 49. Given an unsorted integer array A, check if the array A is a palindrome or not. 
 50. Given an unsorted integer array A, find the sum and product of the minimum and maximum values of the array. 
-
-Permission List 
-05-03-2020 Morning NO Permission
-
